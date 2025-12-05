@@ -1,1 +1,79 @@
 /* Add your own styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #303f9f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#controls {
+    padding: 20px;
+    text-align: center;
+}
+
+#controls>div {
+    margin-bottom: 15px;
+}
+
+input[type="search"] {
+    padding: 8px;
+    width: 250px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#lookup {
+    background-color: #4db8a8;
+}
+
+#lookup-cities {
+    background-color: #5b8fc7;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+#result {
+    padding: 20px;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #555;
+}
+
+th {
+    background: #303f9f;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 8px;
+    background: white;
+}
